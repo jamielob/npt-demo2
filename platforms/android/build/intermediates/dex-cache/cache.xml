@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/jamielob/Dropbox/Sites/npt-demo2/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="856c427b914d3b96d33da52278cc35b53bfe6d3c">
+        <dex dex="/Users/jamielob/Dropbox/Sites/npt-demo2/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_6506ddc47cfbbffe0e9f5c478754d5995a8254a0.jar" />
+    </item>
+
+</items>

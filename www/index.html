@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <script src="cordova.js"></script>
+  <script src="scripts/demo.js"></script>
+  <script src="scripts/app.js"></script>
+</head>
+<body>
+
+        <a onclick="test()">TEST!!</a>
+        <script>
+          function test() {
+            var options = {
+              "direction" : "left",
+              "href" : "eigth.html"
+            };
+            window.plugins.nativepagetransitions.slide(
+              options,
+              function (msg) {alert("SUCCESS: " + JSON.stringify(msg))},
+              function (msg) {alert("ERROR: "   + JSON.stringify(msg))}
+            );
+          }
+        </script>
+  
+</body>
+</html>
